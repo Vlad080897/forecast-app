@@ -1,0 +1,35 @@
+.container_page {
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+
+.title {
+    color: #e96e50;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.search_city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.middle_temp {
+    background-image: radial-gradient(#e28d50, #e96e50);
+}
+
+.low_temp {
+    background-image: radial-gradient(#00ffff, #000080);
+}
+
+.high_temp {
+    background-image: radial-gradient(#ff8c00, #e96e50);
+}
+
+.divider {
+    margin: 10px 0px;
+}

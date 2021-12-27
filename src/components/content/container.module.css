@@ -1,0 +1,12 @@
+.container_page {
+    height: 100%;
+}
+
+.header {
+    background-color: #48484a;
+}
+
+.logo {
+    width: 130px;
+    height: 50px;
+}
