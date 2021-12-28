@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/forecast-app/static/css/main.688990ac.css",
+    "main.js": "/forecast-app/static/js/main.6a7200f9.js",
+    "static/js/787.cfd8f164.chunk.js": "/forecast-app/static/js/787.cfd8f164.chunk.js",
+    "static/media/logo_white_cropped.png": "/forecast-app/static/media/logo_white_cropped.4595304db3173f1f94c5.png",
+    "index.html": "/forecast-app/index.html",
+    "main.688990ac.css.map": "/forecast-app/static/css/main.688990ac.css.map",
+    "main.6a7200f9.js.map": "/forecast-app/static/js/main.6a7200f9.js.map",
+    "787.cfd8f164.chunk.js.map": "/forecast-app/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.688990ac.css",
+    "static/js/main.6a7200f9.js"
+  ]
+}
