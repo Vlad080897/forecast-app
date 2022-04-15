@@ -5,6 +5,7 @@ export interface getWeatherType {
 
 export interface CurrentType {
     cloud: number,
+    // eslint-disable-next-line @typescript-eslint/ban-types
     condition: {},
     humidity: number,
     pressure_mb: number,
@@ -47,6 +48,4 @@ export interface Day {
     maxtemp_c: number,
     maxwind_kph: number,
     mintemp_c: number,
-
-
 }

@@ -1,15 +1,14 @@
-import { Action, applyMiddleware, combineReducers, createStore } from "redux";
-import weatherReducer from "./weatherReducer";
-import thunkMiddleWear from 'redux-thunk'
-
+import { applyMiddleware, combineReducers, createStore } from 'redux';
+import thunkMiddleWear from 'redux-thunk';
+import weatherReducer from './weatherReducer';
 
 const reducers = combineReducers({
-    weatherReducer: weatherReducer,
+  weatherReducer,
 
-})
+});
 
 const store = createStore(reducers, applyMiddleware(thunkMiddleWear));
 
-export default store
+export default store;
 
-export type AppStateType = ReturnType<typeof reducers> 
+export type AppStateType = ReturnType<typeof reducers>;
